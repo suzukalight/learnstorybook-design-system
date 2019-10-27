@@ -21,7 +21,7 @@
     "lint": "eslint --fix --ext .jsx,.js,.tsx,.ts ./src",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "storybook": "start-storybook -p 22222 -s public",
+    "storybook": "start-storybook -p 24680 -s public",
     "build-storybook": "build-storybook -s public",
     "serve:storybook": "npx servor ./storybook-static index.html 7890"
   },
@@ -41,6 +41,7 @@
     ]
   },
   "devDependencies": {
+    "@storybook/addon-a11y": "^5.2.5",
     "@storybook/addon-actions": "^5.2.5",
     "@storybook/addon-knobs": "^5.2.5",
     "@storybook/addon-links": "^5.2.5",
