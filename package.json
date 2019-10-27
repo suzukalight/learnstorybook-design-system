@@ -22,7 +22,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 22222 -s public",
-    "build-storybook": "build-storybook -s public"
+    "build-storybook": "build-storybook -s public",
+    "serve:storybook": "npx servor ./storybook-static index.html 7890"
   },
   "eslintConfig": {
     "extends": "react-app"
